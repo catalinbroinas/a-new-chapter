@@ -4,9 +4,6 @@
 
 // =================  Imports ================
 
-// Fonts and icons
-@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-
 // Variables and mixins
 @import './base/variables';
 @import './base/mixins';
@@ -22,5 +19,4 @@
 @import './content-styles/content-styles';
 
 // Components
-@import './components/navbar';
 @import './components/footer';
