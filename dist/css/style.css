@@ -17542,15 +17542,24 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 4rem;
   color: #ffffff;
   line-height: 1.3;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.intro__divider {
+  width: 5rem;
+  height: 2px;
+  margin: 0 auto 1.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .intro__subtitle {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffffff;
   line-height: 1.4;
+  opacity: 0.9;
   text-align: center;
   margin-bottom: 0;
 }
