@@ -1,0 +1,47 @@
+// =================================
+//   INTRO
+// =================================
+
+.intro {
+  position: relative;
+  overflow: hidden;
+  min-height: 40svb;
+
+  background-image: url('/../src/assets/images/cover.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: fixed;
+  }
+
+  &__mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+
+    @include mask-dark(0.5);
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    @include title(4rem, $text-white);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    @include subtitle(2rem, $text-white);
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
