@@ -17509,22 +17509,22 @@ fieldset:disabled .btn-group-vertical > .btn {
   }
 }
 
-.card-life-style {
+.card-lifestyle {
   height: 100%;
 }
-.card-life-style__body {
+.card-lifestyle__body {
   padding: 1.5rem 3rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
 }
-.card-life-style__icon {
+.card-lifestyle__icon {
   font-size: 2.25rem;
   color: #651fff;
   line-height: 1.1;
 }
-.card-life-style__title {
+.card-lifestyle__title {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1.35rem;
@@ -17533,7 +17533,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   letter-spacing: 0.5px;
   margin-bottom: 0.5rem;
 }
-.card-life-style__text {
+.card-lifestyle__text {
   font-family: "Open Sans", Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 1rem;
