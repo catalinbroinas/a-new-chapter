@@ -36,3 +36,17 @@
     margin-bottom: 0;
   }
 }
+
+.card-standard {
+  height: 100%;
+
+  &__title {
+    @include title($size: 1.35rem, $color: $text-accent);
+    margin: 0 0 0.75rem 2rem;
+  }
+
+  &__text {
+    @include text();
+    margin-bottom: 0;
+  }
+}

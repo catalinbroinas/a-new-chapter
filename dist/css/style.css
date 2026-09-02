@@ -17551,6 +17551,26 @@ fieldset:disabled .btn-group-vertical > .btn {
   margin-bottom: 0;
 }
 
+.card-standard {
+  height: 100%;
+}
+.card-standard__title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #6200ea;
+  line-height: 1.3;
+  margin: 0 0 0.75rem 2rem;
+}
+.card-standard__text {
+  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
 .intro {
   position: relative;
   overflow: hidden;
