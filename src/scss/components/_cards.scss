@@ -50,3 +50,34 @@
     margin-bottom: 0;
   }
 }
+
+.card-direction {
+  height: 100%;
+
+  &__body {
+    padding: 1.5rem 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    text-align: center;
+  }
+
+  &__icon {
+    font-size: 2.5rem;
+    color: $bg-brand;
+    line-height: 1.1;
+  }
+
+  &__title {
+    @include title($size: 1.35rem, $color: $text-accent);
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    @include text();
+    margin-bottom: 0;
+  }
+}
