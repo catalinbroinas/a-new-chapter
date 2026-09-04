@@ -17607,6 +17607,10 @@ fieldset:disabled .btn-group-vertical > .btn {
 .card-experience {
   height: 100%;
 }
+.card-experience__image {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
 .card-experience__body {
   padding: 1.5rem 1.5rem 2rem;
 }

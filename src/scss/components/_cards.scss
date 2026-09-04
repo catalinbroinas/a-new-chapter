@@ -85,6 +85,11 @@
 .card-experience {
   height: 100%;
 
+  &__image {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
   &__body {
     padding: 1.5rem 1.5rem 2rem;
   }
