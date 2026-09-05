@@ -1,0 +1,44 @@
+// =================================
+//   REFLECTION
+// =================================
+
+.reflection-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  &__badge {
+    flex-shrink: 0;
+
+    width: 3.5rem;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.5rem;
+    background-color: $bg-brand;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  &__icon {
+    font-size: 1.35rem;
+    color: $text-white;
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__title {
+    @include title($size: 1.5rem, $color: $text-accent);
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+  }
+
+  &__text {
+    @include text();
+    margin-bottom: 0;
+  }
+}
