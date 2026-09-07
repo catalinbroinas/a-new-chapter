@@ -17677,6 +17677,27 @@ fieldset:disabled .btn-group-vertical > .btn {
   text-align: center;
   margin-bottom: 0;
 }
+@media (orientation: landscape) and (max-width: 991.98px) {
+  .intro {
+    height: 60svh;
+  }
+}
+@media (orientation: landscape) and (max-width: 767.98px) {
+  .intro {
+    height: 70svh;
+  }
+}
+@media (max-width: 575.98px) {
+  .intro {
+    height: 50svh;
+  }
+  .intro__title {
+    font-size: 3rem;
+  }
+  .intro__subtitle {
+    font-size: 1.25rem;
+  }
+}
 
 .footer__text {
   background-color: #f5f5f5;
