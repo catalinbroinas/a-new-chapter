@@ -17635,24 +17635,15 @@ fieldset:disabled .btn-group-vertical > .btn {
 .intro {
   position: relative;
   overflow: hidden;
-  min-height: 40svb;
+  height: 40svh;
   background-image: url("/../src/assets/images/cover.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-}
-@supports (-webkit-touch-callout: none) {
-  .intro {
-    background-attachment: fixed;
-  }
+  background-position: center;
 }
 .intro__mask {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
